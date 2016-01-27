@@ -5,12 +5,12 @@ var logo_sizes = '';
 var poster_sizes = '';
 var profile_sizes = '';
 
-$(document).ready(function(){
+
 //Preloader 
-    $(window).load(function(){
+$(window).load(function(){
         $('#page-loader').fadeOut(500);
-    }); 
-    
+
+
 
 	$('#movie-search-form').submit(function(){
 			event.preventDefault();
@@ -146,8 +146,8 @@ $.getJSON(nowPlaying, function(data){
 			$(html).appendTo('#now-playing-wrapper');
 		}
 	}
-}); // End get json - popular movies
 
 
+   }); 
 
 
