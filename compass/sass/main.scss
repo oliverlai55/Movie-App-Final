@@ -1,0 +1,23 @@
+img{
+	width: 100%;
+}
+
+#movie-wrapper{
+	.search-form{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.movie-row{
+		overflow: hidden;
+		clear: both;
+		margin: 10px;
+		.now-playing-movie{
+			float: left;
+			width: 23%;
+			margin: 1%;
+		}
+	}	
+}
+
+#page-loader{position:fixed;right:0;bottom:0;top:0;width:100%;background:#fff;z-index:99999;}
+#page-loader .page-loader-gif{display:block;width:64px;height:64px;position:absolute;top:50%;left:50%;margin:-32px 0 0 -32px;background:url('../img/balls.gif') no-repeat;}
